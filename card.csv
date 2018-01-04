@@ -1,0 +1,110 @@
+Color,Card Type,Name,Description,Cost,Cost Type
+Purple,Government,Anarchy,"<ul><li>Draw - 1</li>
+<li>Action - 1</li>
+<li>Voting - Proposed laws automatically accepted at cost of 2 Influence of any type</li>
+<li>Special - When Anarchy is first played, the leader can spend 1 Influence to discard 1 Law on the board. The discard pile is then shuffled back into the deck.</li>
+<li>Elimination - Nobody can be eliminated</li></ul>
+",1,Any
+Purple,Government,Monarchy,"<ul><li>Draw - Monarch draws 1 card. All other players draw 2 cards.</li>
+<li>Action - The monarch may play 1 card. All others must play 1</li>
+<li>Voting - The monarch must approve any proposed law.</li>
+<li>Special - The player who changes the government to a monarchy is the monarch.</li>
+<li>Elimination - The monarch must spend 7 Influence Cards - minimum of 2 of each type to eliminate any player of their
+choosing.</li></ul>
+",1, of each Influence Type (3 total)
+Purple,Government,Democracy,"<ul><li>Draw - Up to 3</li>
+<li>Action - Up to 3</li>
+<li>Voting - People worth 1 vote, Money and Force do not vote.</li>
+<li>Special Rules - Once per turn as a free play, a player may discard one of their influence cards and hold a special
+election to propose removing any law on the board.</li>
+<li>Elimination - Two influence cards must be discarded to hold an elimination vote. The vote passes with a majority of
+the Influence on the board voting for. Votes fail with ties.</li></ul>
+",1,Any
+Purple,Government,Communism,"<ul><li>Draw - 2</li>
+<li>Action - 2</li>
+<li>Voting - Militants and Force are worth one vote, Money and other People worth half a vote</li>
+<li>Special Rules - If you have a Militant in play, you can play and draw one extra card </li>
+<li>Elimination - The player discards 4 Force Influence and 1 of any type to eliminate another player.</li>
+</ul>
+",2,Force
+Purple,Government,Oligarchy,"<ul><li>Draw - 2</li>
+<li>Action -1</li>
+<li>Voting - Aristocrats and Money worth one vote, Force and other People worth half a vote.</li>
+<li>Special Rules - If you have an Aristocrat in play, you can play and draw one extra card.</li>
+<li>Elimination - The player may discard 4 Money Influence and 1 of any type to eliminate another player.</li>
+</ul>
+",2,Money
+Purple,Government,Theocracy,"<ul><li>Draw - 2</li>
+<li>Action - 2</li>
+<li>Voting - Religious people worth one vote. All other influence is worth half a vote.</li>
+<li>Elimination - The player may discard 4 People Influence and 1 of any type to eliminate another player. One of the
+People cards must be Religious.</li>
+<li>Special Rules - If you have a Religious People Influence in play, you can play and draw one extra card</li>
+",2,People
+Black,Law,Big Government,No player may have no more than 3 of any Influence type on the board. Replaces the Small Government Law,2,Any
+Black,Law,Small Government,"Limitation of Power and Limitation of Influence Laws cannot be on the board. Replaces the Big Government Law. If Limitation Laws are on the board, remove one of them.",2,Any
+Black,Law,Military Power,Force worth an additional half vote,1,Force
+Black,Law,Money is Power,Money worth an additional half vote,1,Money
+Black,Law,Power of the People,People worth an additional half vote,1,Person
+Black,Law,Taxes,"After drawing cards, you must discard one of your Influence cards in play or two Influence cards from your hand. Otherwise, your turn is skipped.",1,Money
+Black,Law,Stand Your Ground,"After being voted to be eliminated, you may use your Force cards to remove Influence from the current leader in an effort to stay in the game.",1,Force
+Black,Law,Business Incentives,You may discard 1 card in your hand and replace by drawing another card.,1,Money
+Black,Law,Estate Tax,"When a player is eliminated, their Money Influence goes to the current leader",1,Money
+Black,Law,Non-Violence,Force cannot be used to discard another player’s Influence,1,Force
+Black,Law,Anti-Corruption,Money cannot be used to discard another player’s Influence,1,Person
+Black,Law,Limitation of Power,"When not your turn, players may have at most 3 cards in their hands",1,Any
+Black,Law,Limitation of Influence,"When not your turn, players may have at most 7 Influence cards on the board",1,Any
+Black,Law,Research Funding,A player may spend one Money Influence and use one of their actions to shuffle the discard pile back into the deck.,0,
+Black,Special Sessions,Reverse,Reverse the order of turns,0,
+Black,Special Sessions,Repeal,Remove any law on the board. The law being repealed must be announced before the voting.,0,
+Black,Special Sessions,Repeal and Replace,Remove any law on the board and replace it with a new Law. The repealed and replacement law must be announced before voting.,0,
+Black,Special Sessions,Levy Sanctions,Skip the next player’s turn,0,
+Black,Special Sessions,The Good Ol' Days,"Revert to the previous form of government. The player who proposed this law must pay the previous government’s revolution costs. If there is no previous form of government, this law cannot be played",2,Any
+Black,Procedural Rules,Fat Cats,Draw +1 cards to start your turn,0,
+Black,Procedural Rules,Ambition,Play +1 cards during your turn.,0,
+Black,Procedural Rules,Welfare,"If you have the least number of Influence cards at the start of your turn (including ties), you may draw +2 extra cards. Players must spend one Influence to vote against this law.",0,
+Yellow,Social Norms,Militia,"At any time, discard one of your Influence cards to use any number of your People cards as Force cards for one turn.",,
+Yellow,Social Norms,Tragedy of the Commons,Spend one influence card to take an extra turn at the end of your current turn.,,
+Yellow,Social Norms,Blackmail,Take one card at random from another player’s hand,,
+Yellow,Social Norms,Death to the King,"If you have more influence cards than the king, you can become the new king. ",,
+Yellow,Social Norms,Sleeper Cell,One People Influence belonging to another player votes however you wish during any vote.,,
+Yellow,Social Norms,Thievery,Steal one influence card from another player.,,
+Yellow,Social Norms,Redistribution of Wealth,"Gather all the influence cards and shuffle them. Starting with yourself, deal all the cards to the players and put them on the board.",,
+Yellow,Social Norms,Waste Management,Shuffle the discard pile back into the deck,,
+Yellow,Social Norms,Secret Rider,"After a law you propose passes, place a second law on the board without a vote. Pay the second law’s Influence cost +1.",,
+Yellow,Social Norms,Government Collapse,Remove half (rounded down) of Laws on the board.,,
+Yellow,Social Norms,Military Coup,Use Force as any Influence type when paying costs. Can be played before a revolution.,,
+Yellow,Social Norms,Revolt,Use People as any Influence type when paying costs. Can be played before a revolution.,,
+Yellow,Social Norms,Corporate Shills,Use Money as any Influence type when paying costs. Can be played before a revolution.,,
+Yellow,Social Norms,Embezzlement,"Draw one card.",,
+Yellow,Social Norms,Earmarks,"Draw two cards",,
+Blue,Influence,People - Normal,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Normal,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Normal,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Normal,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Militant,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Militant,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Aristocrat,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Aristocrat,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Religious,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Blue,Influence,People - Religious,"As an action, discard 2 People cards to discard one Money Influence from another player.",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Green,Influence,Money,"As an action, discard 2 Force cards to discard one Person Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
+Red,Influence,Force,"As an action, discard 2 Money to discard one Force Influence from another player",,
