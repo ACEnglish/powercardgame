@@ -1,0 +1,75 @@
+.card {
+    margin: 0.5mm;
+    border-style: solid;
+    border-width: 0.8mm;
+    border-color: black;
+    border-radius: 3mm;
+    font-size:10pt;
+    width: 63mm;
+    height: 88mm;
+}
+
+.type {
+	float: right;
+	margin: 1mm;
+	width: 62mm;
+	height: 5mm;
+	font-size: 16pt;
+}
+
+.colorbox {
+	display: inline;
+	float: left;
+	border-style: solid;
+	border-color: white;
+	border-radius: 25px;
+	width: 10mm;
+	height: 5mm;
+	margin-right: 1mm;
+	margin-top: 0;
+}
+
+.name {
+	float: left;
+	margin: 1mm;
+	height: 5mm;
+	font-size: 12pt;
+	text-align: center;
+	width: 62mm;
+	margin-bottom: 0mm;
+}
+
+.description {
+	float: left;
+	margin: 1mm;
+	height: 62mm;
+	padding: 0px;
+	width: 60mm;
+	border-style: solid;
+	border-radius: 25px;
+	border-color: white;
+	background-color: #F5F5F5;
+}
+
+.descriptiontext {
+	padding: 5px;
+	margin-top: 2mm;
+    	font-size: 16pt;
+
+}
+.descriptiontext ul {
+    margin-top:-8mm;
+    padding:5mm;
+    font-size: 10pt;
+}
+
+.cost {
+    float: left;
+    line-height: 6mm;
+    text-align: right;
+    vertical-align: middle;
+    margin: 1mm;
+    height: 5mm;
+    width: 60mm;
+    border-style: solid;
+}
